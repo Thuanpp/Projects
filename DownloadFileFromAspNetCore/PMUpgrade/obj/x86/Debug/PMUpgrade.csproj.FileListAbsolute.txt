@@ -1,0 +1,34 @@
+D:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.Form1.resources
+D:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.Properties.Resources.resources
+D:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.csproj.GenerateResource.Cache
+D:\Project\PMUpgrade\PMUpgrade\bin\Debug\Setting.ini
+D:\Project\PMUpgrade\PMUpgrade\bin\Debug\IUIniFile.cs
+D:\Project\PMUpgrade\PMUpgrade\bin\Debug\PMUpgrade.exe
+D:\Project\PMUpgrade\PMUpgrade\bin\Debug\PMUpgrade.pdb
+D:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.exe
+D:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.pdb
+E:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.exe
+E:\Project\PMUpgrade\PMUpgrade\obj\x86\Debug\PMUpgrade.pdb
+E:\Project\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.exe
+E:\Project\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.pdb
+E:\Project\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.Form1.resources
+E:\Project\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.Properties.Resources.resources
+E:\Project\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.csproj.GenerateResource.Cache
+E:\Project\PMUpgradeByWebApi\PMUpgrade\bin\Debug\Setting.ini
+E:\Project\PMUpgradeByWebApi\PMUpgrade\bin\Debug\IUIniFile.cs
+E:\Project\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.exe.config
+E:\Project\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.exe
+E:\Project\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.pdb
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.exe.config
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.exe
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.pdb
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\Setting.ini
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\IUIniFile.cs
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.exe
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\PMUpgrade.pdb
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.Form1.resources
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.Properties.Resources.resources
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.csproj.GenerateResource.Cache
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\obj\x86\Debug\PMUpgrade.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\Newtonsoft.Json.dll
+E:\Project\PMSource V2\PMUpgradeByWebApi\PMUpgrade\bin\Debug\Newtonsoft.Json.xml
