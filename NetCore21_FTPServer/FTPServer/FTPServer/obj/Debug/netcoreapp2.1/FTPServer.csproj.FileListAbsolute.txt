@@ -1,0 +1,14 @@
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\bin\Debug\netcoreapp2.1\FTPServer.deps.json
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\bin\Debug\netcoreapp2.1\FTPServer.runtimeconfig.json
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\bin\Debug\netcoreapp2.1\FTPServer.runtimeconfig.dev.json
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\bin\Debug\netcoreapp2.1\FTPServer.dll
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\bin\Debug\netcoreapp2.1\FTPServer.pdb
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.csproj.CoreCompileInputs.cache
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.RazorAssemblyInfo.cache
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.RazorAssemblyInfo.cs
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.AssemblyInfoInputs.cache
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.AssemblyInfo.cs
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.RazorTargetAssemblyInfo.cache
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.dll
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.pdb
+E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Debug\netcoreapp2.1\FTPServer.csprojAssemblyReference.cache
