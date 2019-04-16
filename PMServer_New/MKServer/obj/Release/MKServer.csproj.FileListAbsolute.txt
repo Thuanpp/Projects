@@ -1,0 +1,48 @@
+E:\Exercise\TCP Protocol\TCPServer\MKServer\bin\Release\PMTCPServer.dll
+E:\Exercise\TCP Protocol\TCPServer\MKServer\bin\Release\PMTCPServer.pdb
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Release\ResolveAssemblyReference.cache
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Release\PMTCPServer.dll
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Release\PMTCPServer.pdb
+D:\Project\TCPServer\MKServer\bin\Release\PMTCPServer.dll
+D:\Project\TCPServer\MKServer\bin\Release\PMTCPServer.pdb
+D:\Project\TCPServer\MKServer\obj\Release\PMTCPServer.dll
+D:\Project\TCPServer\MKServer\obj\Release\PMTCPServer.pdb
+D:\Project\Mocau\PMServer\MKServer\bin\Release\PMTCPServer.dll
+D:\Project\Mocau\PMServer\MKServer\bin\Release\PMTCPServer.pdb
+D:\Project\Mocau\PMServer\MKServer\obj\Release\PMTCPServer.dll
+D:\Project\Mocau\PMServer\MKServer\obj\Release\PMTCPServer.pdb
+E:\Project Objects\Project Management\PMServer\MKServer\bin\Release\PMTCPServer.dll
+E:\Project Objects\Project Management\PMServer\MKServer\bin\Release\PMTCPServer.pdb
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Release\ResolveAssemblyReference.cache
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Release\PMTCPServer.dll
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Release\PMTCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\MKServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer_2018-03-04\PMServer\MKServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\MKServer\obj\Release\PMTCPServer.dll
+D:\Project\PMServer_2018-03-04\PMServer\MKServer\obj\Release\PMTCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer\MKServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer\MKServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer\MKServer\obj\Release\PMTCPServer.dll
+D:\Project\PMServer\MKServer\obj\Release\PMTCPServer.pdb
+D:\Project\PMServer_Final_20180410\MKServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer_Final_20180410\MKServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer_Final_20180410\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer_Final_20180410\MKServer\obj\Release\PMTCPServer.dll
+D:\Project\PMServer_Final_20180410\MKServer\obj\Release\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\MKServer\bin\Release\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\MKServer\bin\Release\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\MKServer\obj\Release\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\MKServer\obj\Release\PMTCPServer.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\THUANPP\PMServer_Final_20180410_1\MKServer\obj\Release\PMTCPServer.dll
+E:\Project\THUANPP\PMServer_Final_20180410_1\MKServer\bin\Release\PMTCPServer.dll
+E:\Project\THUANPP\PMServer_Final_20180410_1\MKServer\bin\Release\PMTCPServer.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\MKServer\obj\Release\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\MKServer\bin\Release\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\MKServer\bin\Release\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Release\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Release\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Release\PMTCPServer.pdb

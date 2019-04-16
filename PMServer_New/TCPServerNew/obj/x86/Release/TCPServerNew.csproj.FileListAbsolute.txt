@@ -1,0 +1,48 @@
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\Setting.ini
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.exe
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServerNew.csproj.GenerateResource.Cache
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.exe
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Release\Setting.ini
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Release\TCPServerNew.exe
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Release\TCPServerNew.pdb
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Release\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Release\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.csproj.GenerateResource.Cache
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.exe
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.pdb
+E:\Project\THUANPP\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.exe
+E:\Project\THUANPP\PMServer_Final_20180410\TCPServerNew\obj\x86\Release\TCPServerNew.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServerNew.exe
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServerNew.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\bin\Release\Setting.ini
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\bin\Release\TCPServerNew.exe
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\bin\Release\TCPServerNew.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\bin\Release\PMTCPServer.dll
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\bin\Release\PMTCPServer.pdb
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project\THUANPP\PMServer_Final_20180410_1\TCPServerNew\obj\x86\Release\TCPServerNew.csproj.GenerateResource.Cache
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.exe
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.exe
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Release\Setting.ini
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Release\TCPServerNew.exe
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Release\TCPServerNew.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Release\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Release\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Release\TCPServerNew.csproj.GenerateResource.Cache

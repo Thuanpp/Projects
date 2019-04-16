@@ -12,3 +12,17 @@ E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp
 E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.RazorTargetAssemblyInfo.cache
 E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.dll
 E:\Project\WebAPI\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.pdb
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\bin\Release\netcoreapp2.1\FTPServer.deps.json
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\bin\Release\netcoreapp2.1\FTPServer.runtimeconfig.json
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\bin\Release\netcoreapp2.1\FTPServer.runtimeconfig.dev.json
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\bin\Release\netcoreapp2.1\FTPServer.dll
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\bin\Release\netcoreapp2.1\FTPServer.pdb
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.csprojAssemblyReference.cache
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.csproj.CoreCompileInputs.cache
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.RazorAssemblyInfo.cache
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.RazorAssemblyInfo.cs
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.AssemblyInfoInputs.cache
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.AssemblyInfo.cs
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.RazorTargetAssemblyInfo.cache
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.dll
+E:\THUANPP\GitHub\Projects\NetCore21_FTPServer\FTPServer\FTPServer\obj\Release\netcoreapp2.1\FTPServer.pdb

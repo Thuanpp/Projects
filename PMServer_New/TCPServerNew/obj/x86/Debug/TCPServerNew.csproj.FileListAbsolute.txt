@@ -1,0 +1,33 @@
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Debug\Setting.ini
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Debug\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Debug\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServer.PMMain.resources
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServer.Properties.Resources.resources
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServerNew.csproj.GenerateResource.Cache
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Debug\TCPServerNew.exe
+E:\Project\PMServer_Final_20180410\TCPServerNew\bin\Debug\TCPServerNew.pdb
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServerNew.exe
+E:\Project\PMServer_Final_20180410\TCPServerNew\obj\x86\Debug\TCPServerNew.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.exe
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\Setting.ini
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\TCPServerNew.exe
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\TCPServerNew.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\PMTCPServer.dll
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\PMTCPServer.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServer.PMMain.resources
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServer.Properties.Resources.resources
+E:\Project\THUANPP\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.csproj.GenerateResource.Cache
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.exe
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\Setting.ini
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\TCPServerNew.exe
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\TCPServerNew.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\bin\Debug\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServer.PMMain.resources
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServer.Properties.Resources.resources
+E:\Project\PMSource V2\PMServer_New\TCPServerNew\obj\x86\Debug\TCPServerNew.csproj.GenerateResource.Cache

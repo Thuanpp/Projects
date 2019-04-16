@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\WebAPI\\NetCore21_FTPServer\\FTPServer\\FTPServer\\FTPServer.csproj",
+      "projectUniqueName": "E:\\THUANPP\\GitHub\\Projects\\NetCore21_FTPServer\\FTPServer\\FTPServer\\FTPServer.csproj",
       "projectName": "FTPServer",
-      "projectPath": "E:\\Project\\WebAPI\\NetCore21_FTPServer\\FTPServer\\FTPServer\\FTPServer.csproj",
+      "projectPath": "E:\\THUANPP\\GitHub\\Projects\\NetCore21_FTPServer\\FTPServer\\FTPServer\\FTPServer.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\WebAPI\\NetCore21_FTPServer\\FTPServer\\FTPServer\\obj\\",
+      "outputPath": "E:\\THUANPP\\GitHub\\Projects\\NetCore21_FTPServer\\FTPServer\\FTPServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

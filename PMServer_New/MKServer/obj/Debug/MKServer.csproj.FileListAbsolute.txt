@@ -1,0 +1,33 @@
+E:\Exercise\TCP Protocol\TCPServer\MKServer\bin\Debug\PMTCPServer.dll
+E:\Exercise\TCP Protocol\TCPServer\MKServer\bin\Debug\PMTCPServer.pdb
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Debug\ResolveAssemblyReference.cache
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Debug\PMTCPServer.dll
+E:\Exercise\TCP Protocol\TCPServer\MKServer\obj\Debug\PMTCPServer.pdb
+E:\Project Objects\Project Management\PMServer\MKServer\bin\Debug\PMTCPServer.dll
+E:\Project Objects\Project Management\PMServer\MKServer\bin\Debug\PMTCPServer.pdb
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Debug\ResolveAssemblyReference.cache
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Debug\PMTCPServer.dll
+E:\Project Objects\Project Management\PMServer\MKServer\obj\Debug\PMTCPServer.pdb
+D:\Project\Mocau\PMServer\MKServer\bin\Debug\PMTCPServer.dll
+D:\Project\Mocau\PMServer\MKServer\bin\Debug\PMTCPServer.pdb
+D:\Project\Mocau\PMServer\MKServer\obj\Debug\PMTCPServer.dll
+D:\Project\Mocau\PMServer\MKServer\obj\Debug\PMTCPServer.pdb
+D:\Project\PMServer\MKServer\bin\Debug\PMTCPServer.dll
+D:\Project\PMServer\MKServer\bin\Debug\PMTCPServer.pdb
+D:\Project\PMServer\MKServer\obj\Debug\PMTCPServer.dll
+D:\Project\PMServer\MKServer\obj\Debug\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\MKServer\bin\Debug\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\MKServer\bin\Debug\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\MKServer\obj\Debug\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\MKServer\obj\Debug\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\MKServer\obj\Debug\PMTCPServer.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\MKServer\bin\Debug\PMTCPServer.dll
+E:\Project\THUANPP\PMSource V2\PMServer_New\MKServer\bin\Debug\PMTCPServer.pdb
+E:\Project\THUANPP\PMSource V2\PMServer_New\MKServer\obj\Debug\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\THUANPP\PMSource V2\PMServer_New\MKServer\obj\Debug\PMTCPServer.dll
+E:\Project\THUANPP\PMSource V2\PMServer_New\MKServer\obj\Debug\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Debug\MKServer.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Debug\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\MKServer\obj\Debug\PMTCPServer.pdb
+E:\Project\PMSource V2\PMServer_New\MKServer\bin\Debug\PMTCPServer.dll
+E:\Project\PMSource V2\PMServer_New\MKServer\bin\Debug\PMTCPServer.pdb

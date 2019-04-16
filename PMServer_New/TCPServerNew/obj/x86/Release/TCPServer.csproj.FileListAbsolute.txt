@@ -1,0 +1,90 @@
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\bin\Release\TCPServer.exe
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\bin\Release\TCPServer.pdb
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\bin\Release\PMTCPServer.dll
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\bin\Release\PMTCPServer.pdb
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\TCPServer.exe
+E:\Exercise\TCP Protocol\TCPServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\TCPServer\TCPServer\bin\Release\TCPServer.exe
+D:\Project\TCPServer\TCPServer\bin\Release\TCPServer.pdb
+D:\Project\TCPServer\TCPServer\bin\Release\PMTCPServer.dll
+D:\Project\TCPServer\TCPServer\bin\Release\PMTCPServer.pdb
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+D:\Project\TCPServer\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
+D:\Project\TCPServerFinal\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\TCPServerFinal\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\Mocau\PMServer\TCPServer\bin\Release\Setting.ini
+D:\Project\Mocau\PMServer\TCPServer\bin\Release\TCPServer.exe
+D:\Project\Mocau\PMServer\TCPServer\bin\Release\TCPServer.pdb
+D:\Project\Mocau\PMServer\TCPServer\bin\Release\PMTCPServer.dll
+D:\Project\Mocau\PMServer\TCPServer\bin\Release\PMTCPServer.pdb
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+D:\Project\Mocau\PMServer\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
+E:\Project Objects\Project Management\PMServer\TCPServer\bin\Release\Setting.ini
+E:\Project Objects\Project Management\PMServer\TCPServer\bin\Release\TCPServer.exe
+E:\Project Objects\Project Management\PMServer\TCPServer\bin\Release\TCPServer.pdb
+E:\Project Objects\Project Management\PMServer\TCPServer\bin\Release\PMTCPServer.dll
+E:\Project Objects\Project Management\PMServer\TCPServer\bin\Release\PMTCPServer.pdb
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\TCPServer.exe
+E:\Project Objects\Project Management\PMServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\bin\Release\Setting.ini
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\bin\Release\TCPServer.exe
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\bin\Release\TCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+D:\Project\PMServer_2018-03-04\PMServer\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
+D:\Project\PMServer\TCPServer\bin\Release\Setting.ini
+D:\Project\PMServer\TCPServer\bin\Release\TCPServer.exe
+D:\Project\PMServer\TCPServer\bin\Release\TCPServer.pdb
+D:\Project\PMServer\TCPServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer\TCPServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\PMServer\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.exe
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.pdb
+D:\Project\PMServer_Final_20180410\TCPServer\bin\Release\Setting.ini
+D:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.exe
+D:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.pdb
+D:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.dll
+D:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.pdb
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+D:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.exe
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\Setting.ini
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.exe
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\TCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.dll
+E:\Project\PMServer_Final_20180410\TCPServer\bin\Release\PMTCPServer.pdb
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.csprojResolveAssemblyReference.cache
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.PMMain.resources
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.Properties.Resources.resources
+E:\Project\PMServer_Final_20180410\TCPServer\obj\x86\Release\TCPServer.csproj.GenerateResource.Cache
