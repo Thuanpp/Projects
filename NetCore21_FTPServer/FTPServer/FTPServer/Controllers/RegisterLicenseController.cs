@@ -39,7 +39,7 @@ namespace FTPServer.Controllers
                         else
                         {
                             response.StatusCode = "0"; // Key này đã đăng kí full rồi. không cho đăng kí nữa.
-                            response.Message = "5"; 
+                            response.Message = cnt; 
                         }
 
                     }
