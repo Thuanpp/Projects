@@ -10,7 +10,7 @@ namespace FTPServer.Controllers
     public class LicenseController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get(string key)
+        public IActionResult Get(string key) // kiểm tra máy đã đăng kí license hay chưa?
         {
             ResponseStatus status = new ResponseStatus();
             ResponseLicense responseLicense = new ResponseLicense();
@@ -45,7 +45,7 @@ namespace FTPServer.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody]PmlicenceKeyHis pmlicenceKeyHis)
+        public IActionResult Post([FromBody]PmlicenceKeyHis pmlicenceKeyHis) // đăng kí license
         {
             ResponseStatus response = new ResponseStatus();
 
