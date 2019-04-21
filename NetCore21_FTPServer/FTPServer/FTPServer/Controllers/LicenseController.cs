@@ -29,11 +29,20 @@ namespace FTPServer.Controllers
 
                     var ret2 = context.PmlicenceKeyHis.FirstOrDefault(x => x.Hwkey == key && x.ExpiredDate >= DateTime.Now);
                     status.StatusCode = "200";
-                    responseLicense.Status = status;
                     if (ret2 == null) // license bị hết hạn
+                    {
+                        status.Message = "The License expired.";
                         responseLicense.LicenceKeyHis = ret;
+                    }
                     else // license còn hạn
+                    {
+                        ret2.CurrentDate = DateTime.Now;
+                        context.Update(ret2);
+                        context.SaveChanges();
                         responseLicense.LicenceKeyHis = ret2;
+                    }
+                    responseLicense.Status = status;
+
                 }
             }
             catch
@@ -63,6 +72,7 @@ namespace FTPServer.Controllers
                         {
                             DateTime now = DateTime.Now;
                             pmlicenceKeyHis.ActivedDate = now;
+                            pmlicenceKeyHis.CurrentDate = now;
                             pmlicenceKeyHis.ExpiredDate = now.AddDays(pmLicensekey.DayOfUse);
                             context.Add(pmlicenceKeyHis);
                             context.SaveChanges();
