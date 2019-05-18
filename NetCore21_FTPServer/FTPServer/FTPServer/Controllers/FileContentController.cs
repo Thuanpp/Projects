@@ -63,7 +63,7 @@ namespace FTPServer.Controllers
                     byte[] dataBytes = System.IO.File.ReadAllBytes(fullPath);
                     ret = new FileContentResult(dataBytes, "application/octet-stream");
                 }
-                else // Trường hợp không chia file thành nhiều phần 
+                else // Trường hợp chia file thành nhiều phần 
                 {
                     buffer = new byte[value.CurrentFileSize];
                     using (var file = System.IO.File.OpenRead(fullPath))
