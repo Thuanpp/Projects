@@ -39,8 +39,8 @@ namespace FTPServer.Controllers
         }
 
 
-        [Route("api/Upload/RawBinary")]
-        public IActionResult RawBinary()
+        [HttpPost]
+        public IActionResult Post()
         {
             try
             {
@@ -52,7 +52,7 @@ namespace FTPServer.Controllers
 
                 using (var ms = new MemoryStream())
                 {
-                    Request.Body.CopyToAsync(ms);
+                    Request.Body.CopyTo(ms);
 
                     byte[] receive = ms.ToArray();
 
