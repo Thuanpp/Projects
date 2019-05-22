@@ -85,7 +85,7 @@ namespace FTPServer.Controllers
 
                         using (var file = System.IO.File.Open(sFullFilePath, FileMode.CreateNew, FileAccess.Write))
                         {
-                            using (var writer = new StreamWriter(file)) // buffer size can be adjusted if necessary
+                            using (var writer = new StreamWriter(file))
                             {
                                 writer.BaseStream.Write(buffer, 0, buffer.Length);
                             }
