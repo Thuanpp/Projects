@@ -21,8 +21,18 @@ namespace PMUpgrade
         private List<string> lstPath;
         private const string FolderUpdateName = "UpgradePMFolder";
         private const string FolderBackupName = "BackupPMFolder";
+        public string RootPath { get; set; }
+        public string MaxVersion { get; set; }
+
         public Form1()
         {
+            InitializeComponent();
+        }
+
+        public Form1(string rootPath, string maxVersion)
+        {
+            RootPath = rootPath;
+            MaxVersion = maxVersion;
             InitializeComponent();
         }
 
@@ -111,7 +121,7 @@ namespace PMUpgrade
                 Application.DoEvents();
 
                 gclsPMFTPClientThread.ListFolders.Clear();
-                gclsPMFTPClientThread.BrowseFolder();
+                gclsPMFTPClientThread.BrowseFolder(RootPath, MaxVersion);
                 if (flgGetFile)
                 {
                     if (dt.Rows.Count > 0)
@@ -150,7 +160,7 @@ namespace PMUpgrade
                                     foreach(var item in fileListInfo.MyFileInfoList)
                                     {
                                         gclsPMFTPClientThread.MyFileInfo = item;
-                                        gclsPMFTPClientThread.DownLoadFile();
+                                        gclsPMFTPClientThread.DownLoadFile(RootPath, MaxVersion);
                                         if (!flgGetFile) throw new Exception("");
                                     }
                                 }
@@ -233,7 +243,7 @@ namespace PMUpgrade
                         lblStatus.Text = "Cập nhật thành công";
                         Application.DoEvents();
 
-                        IUIniFile.IniFileStrSetting("IsUpGradge", "Flag", "1", IUIniFile.fnc_ReturnMainPath() + "Setting.ini");
+                        //IUIniFile.IniFileStrSetting("IsUpGradge", "Flag", "1", IUIniFile.fnc_ReturnMainPath() + "Setting.ini");
                         System.Threading.Thread.Sleep(500);
 
                         DialogResult dialogResult1 = MessageBox.Show(@"Bạn có muốn chạy chương trình sau khi cập nhật không?", "Thông báo", MessageBoxButtons.YesNo);

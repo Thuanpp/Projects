@@ -46,3 +46,17 @@ E:\THUANPP\GitHub\Projects\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PM
 E:\THUANPP\GitHub\Projects\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.Form1.resources
 E:\THUANPP\GitHub\Projects\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.Properties.Resources.resources
 E:\THUANPP\GitHub\Projects\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.csproj.GenerateResource.Cache
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\PMUpgrade.exe.config
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.exe
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.pdb
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\Setting.ini
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\IUIniFile.cs
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\App.config
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\PMUpgrade.exe
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\PMUpgrade.pdb
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\Newtonsoft.Json.dll
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\bin\Debug\Newtonsoft.Json.xml
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.csprojResolveAssemblyReference.cache
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.Form1.resources
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.Properties.Resources.resources
+E:\Project\WebAPI\DownloadFileFromAspNetCore\PMUpgrade\obj\x86\Debug\PMUpgrade.csproj.GenerateResource.Cache

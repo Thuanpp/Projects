@@ -108,7 +108,7 @@ namespace PMUpgrade
         }
 
 
-        private List<string> SendBrowseFolder()
+        private List<string> SendBrowseFolder(string rootPath, string maxVersion)
         {
             ServicePointManager.ServerCertificateValidationCallback = new
             RemoteCertificateValidationCallback
@@ -120,8 +120,8 @@ namespace PMUpgrade
             {
                 string hostUrl = PMUpgrade.Properties.Settings.Default.HostUrl;
                 string urlGetFolder = Path.Combine(hostUrl, "Folder");
+                urlGetFolder += "?rootPath=" + rootPath + "&maxVersion=" + maxVersion;
 
-                
                 var request = (HttpWebRequest)WebRequest.Create(urlGetFolder);
                 request.ContentType = "application/xml";
 
@@ -175,11 +175,11 @@ namespace PMUpgrade
             return fileListInfo;
         }
 
-        private bool WriteFile(MyFileInfo myFileInfo, byte[] buffer)
+        private bool WriteFile(string rootPath, string maxVersion, MyFileInfo myFileInfo, byte[] buffer)
         {
 
 
-            string fileName = myFileInfo.FileName;
+            string fileName = myFileInfo.FileName.Substring(Path.Combine(rootPath, maxVersion).Length + 2);
             string fullPath = Path.Combine(m_SaveFilePath, fileName);
 
             if (File.Exists(fullPath))
@@ -211,7 +211,7 @@ namespace PMUpgrade
             return true;
         }
 
-        private bool ProcessDownloadFile(string postData, string url)
+        private bool ProcessDownloadFile(string rootPath, string maxVersion, string postData, string url)
         {
             try
             {
@@ -235,7 +235,7 @@ namespace PMUpgrade
 
                 responseStream.CopyTo(ms);
                 byte[] ret = ms.ToArray();
-                WriteFile(m_MyFileInfo, ret);
+                WriteFile(rootPath, maxVersion, m_MyFileInfo, ret);
                 httpWebResponse.Close();
 
             }
@@ -247,7 +247,7 @@ namespace PMUpgrade
             return true;
         }
 
-        private bool SendDownLoadFile1()
+        private bool SendDownLoadFile1(string rootPath, string maxVersion)
         {
             try
             {
@@ -283,7 +283,7 @@ namespace PMUpgrade
                         //postData = postData.Replace("<?xml version=\"1.0\" encoding=\"utf-8\"?>", "");
                         //postData = postData.Replace("<MyFileInfo xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">", "<MyFileInfo xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schemas.datacontract.org/2004/07/FTPServer.Models\">");
 
-                        if (!ProcessDownloadFile(postData, urlContentFile))
+                        if (!ProcessDownloadFile(rootPath, maxVersion,postData, urlContentFile))
                         {
                             //error
                             return false;
@@ -300,7 +300,7 @@ namespace PMUpgrade
                     //string postData = Utility.Serialize<MyFileInfo>(m_MyFileInfo);
                     //postData = postData.Replace("<?xml version=\"1.0\" encoding=\"utf-8\"?>", "");
                     //postData = postData.Replace("<MyFileInfo xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">", "<MyFileInfo xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schemas.datacontract.org/2004/07/FTPServer.Models\">");
-                    if (!ProcessDownloadFile(postData, urlContentFile))
+                    if (!ProcessDownloadFile(rootPath, maxVersion, postData, urlContentFile))
                     {
                         return false;
                     }
@@ -318,14 +318,14 @@ namespace PMUpgrade
         #endregion
 
         #region Public methods
-        public void BrowseFolder()
+        public void BrowseFolder(string rootPath, string maxVersion)
         {
             try
             {
                 PMFTPClientEventArgs clsPMFTPClientEventArgs = new PMFTPClientEventArgs(this);
                 lock (gBrowseFolderLock)
                 {
-                    List<string> list = SendBrowseFolder();
+                    List<string> list = SendBrowseFolder(rootPath, maxVersion);
 
                     if (list == null)
                         throw new Exception("");
@@ -353,10 +353,10 @@ namespace PMUpgrade
             }
         }
 
-        public void DownLoadFile()
+        public void DownLoadFile(string rootPath, string maxVersion)
         {
             PMFTPClientEventArgs clsPMFTPClientEventArgs = new PMFTPClientEventArgs(this);
-            if (SendDownLoadFile1())
+            if (SendDownLoadFile1(rootPath, maxVersion))
             {
                 if (PMDownloadFileFinish != null) PMDownloadFileFinish(this, clsPMFTPClientEventArgs);
             }
