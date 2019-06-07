@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Hosting;
+using FTPServer.Models;
 
 namespace FTPServer.Controllers
 {
@@ -10,11 +12,27 @@ namespace FTPServer.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IHostingEnvironment _hostingEnvironment;
+
+        public ValuesController(IHostingEnvironment hostingEnvironment)
+        {
+            _hostingEnvironment = hostingEnvironment;
+        }
+
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            string key = "";
+            using(var context = new PMLicenceDevContext())
+            {
+                var value = context.PmlicenceKey.FirstOrDefault();
+                if (value != null)
+                    key = value.PublicKey;
+            }
+            string contentRootPath = _hostingEnvironment.ContentRootPath;
+            return new string[] { key, contentRootPath };
         }
 
         // GET api/values/5

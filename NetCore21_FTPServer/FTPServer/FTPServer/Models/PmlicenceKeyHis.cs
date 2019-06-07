@@ -12,6 +12,7 @@ namespace FTPServer.Models
         public DateTime CurrentDate { get; set; }
         public DateTime ExpiredDate { get; set; }
         public string SoftwareVersion { get; set; }
+        public string Pcname { get; set; }
 
         public PmlicenceKey PublicKeyNavigation { get; set; }
     }

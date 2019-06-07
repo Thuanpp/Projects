@@ -1,4 +1,5 @@
 ﻿using FTPServer.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
@@ -20,9 +21,12 @@ namespace FTPServer.Controllers
     [ApiController]
     public class FileContentController : ControllerBase
     {
-        //string RootPath = ConfigurationManager.AppSettings["RootPath"];
-        //long restFileChunkSize = Utility.ConvertMegaBytesToBytes(
-        //            double.Parse(ConfigurationManager.AppSettings["restFileChunkSize"]));
+        private readonly IHostingEnvironment _hostingEnvironment;
+
+        public FileContentController(IHostingEnvironment hostingEnvironment)
+        {
+            _hostingEnvironment = hostingEnvironment;
+        }
 
         public HttpResponseMessage Get(string filePath)
         {
@@ -45,14 +49,14 @@ namespace FTPServer.Controllers
                       .SetBasePath(Directory.GetCurrentDirectory())
                       .AddJsonFile("appsettings.json");
             var configuration = builder.Build();
-            string RootPath = configuration["RootPath"];
+            //string RootPath = configuration["RootPath"];
             string strRestFileChunkSize = configuration["restFileChunkSize"];
 
             restFileChunkSize = Utility.ConvertMegaBytesToBytes(double.Parse(strRestFileChunkSize));
             FileContentResult ret = null;
 
             ResponseStatus res = new ResponseStatus();
-            string fullPath = RootPath + value.FileName;
+            string fullPath = _hostingEnvironment.ContentRootPath + value.FileName;
             byte[] buffer;
 
             try

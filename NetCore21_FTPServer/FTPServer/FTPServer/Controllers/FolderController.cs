@@ -8,6 +8,8 @@ using System.IO;
 using System.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using FTPServer.Models;
 
 namespace FTPServer.Controllers
 {
@@ -15,19 +17,24 @@ namespace FTPServer.Controllers
     [ApiController]
     public class FolderController : ControllerBase
     {
+        private readonly IHostingEnvironment _hostingEnvironment;
+
+        public FolderController(IHostingEnvironment hostingEnvironment)
+        {
+            _hostingEnvironment = hostingEnvironment;
+        }
         string RootPath = "";
 
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<string>> Get(string rootPath, string maxVersion)
         {
-            var builder = new ConfigurationBuilder()
-                                   .SetBasePath(Directory.GetCurrentDirectory())
-                                   .AddJsonFile("appsettings.json");
-            var configuration = builder.Build();
-            RootPath = configuration["RootPath"];
+            RootPath = Path.Combine(_hostingEnvironment.ContentRootPath, rootPath, maxVersion);
+
             List<string> pathList = new List<string>();
             pathList.Add(""); // Path for RootPath
             GetAllSubFolder(RootPath, pathList);
+            for (int i = 0; i < pathList.Count; i++)
+                pathList[i] = Path.Combine(rootPath, maxVersion) + pathList[i];
             return pathList;
         }
 

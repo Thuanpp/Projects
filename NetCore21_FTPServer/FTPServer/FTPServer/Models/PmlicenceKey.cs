@@ -16,6 +16,8 @@ namespace FTPServer.Models
         public string CusPhone { get; set; }
         public string CusEmail { get; set; }
         public int DayOfUse { get; set; }
+        public string MaxVersion { get; set; }
+        public string RootPath { get; set; }
 
         public ICollection<PmlicenceKeyHis> PmlicenceKeyHis { get; set; }
     }

@@ -45,6 +45,7 @@ namespace FTPServer
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }

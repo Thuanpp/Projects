@@ -10,7 +10,7 @@ namespace FTPServer.Controllers
     public class LicenseController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get(string key) // kiểm tra máy đã đăng kí license hay chưa?
+        public IActionResult Get(string key, string  version) // kiểm tra máy đã đăng kí license hay chưa?
         {
             ResponseStatus status = new ResponseStatus();
             ResponseLicense responseLicense = new ResponseLicense();
@@ -37,9 +37,23 @@ namespace FTPServer.Controllers
                     else // license còn hạn
                     {
                         ret2.CurrentDate = DateTime.Now;
+                        ret2.SoftwareVersion = version;
                         context.Update(ret2);
-                        context.SaveChanges();
                         responseLicense.LicenceKeyHis = ret2;
+                        context.SaveChanges();
+                        var PublicKeyNavigation = context.PmlicenceKey.FirstOrDefault(x => x.PublicKey == ret2.PublicKey);
+                        if (PublicKeyNavigation != null)
+                        {
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation = new PmlicenceKey();
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.MaxVersion = PublicKeyNavigation.MaxVersion;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusEmail = PublicKeyNavigation.CusEmail;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusName = PublicKeyNavigation.CusName;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusPhone = PublicKeyNavigation.CusPhone;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.DayOfUse = PublicKeyNavigation.DayOfUse;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.LimitActived = PublicKeyNavigation.LimitActived;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.RootPath = PublicKeyNavigation.RootPath;
+                        }
+
                     }
                     responseLicense.Status = status;
 
@@ -56,7 +70,8 @@ namespace FTPServer.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]PmlicenceKeyHis pmlicenceKeyHis) // đăng kí license
         {
-            ResponseStatus response = new ResponseStatus();
+            ResponseStatus status = new ResponseStatus();
+            ResponseLicense responseLicense = new ResponseLicense();
 
             try
             {
@@ -64,9 +79,24 @@ namespace FTPServer.Controllers
                 {
                     var pmLicensekey = context.PmlicenceKey.FirstOrDefault(x => x.PublicKey == pmlicenceKeyHis.PublicKey);
                     if (pmLicensekey == null)
-                        response.StatusCode = "404"; // Key không tồn tại
+                    {
+                        status.StatusCode = "404"; // Key không tồn tại
+                        responseLicense.Status = status;
+                    }
                     else
                     {
+                        var key = context.PmlicenceKeyHis.
+                            FirstOrDefault(x => x.PublicKey == pmlicenceKeyHis.PublicKey
+                                            & x.Hwkey == pmlicenceKeyHis.Hwkey);
+
+                        // xoa Key het han
+                        if(key != null)
+                        {
+                            context.Remove(key);
+                            context.SaveChanges();
+                        }
+
+
                         int cnt = context.PmlicenceKeyHis.Count(x => x.PublicKey == pmLicensekey.PublicKey);
                         if (cnt < pmLicensekey.LimitActived)
                         {
@@ -76,23 +106,35 @@ namespace FTPServer.Controllers
                             pmlicenceKeyHis.ExpiredDate = now.AddDays(pmLicensekey.DayOfUse);
                             context.Add(pmlicenceKeyHis);
                             context.SaveChanges();
-                            response.StatusCode = "200";
+                            status.StatusCode = "200";
+                            responseLicense.Status = status;
+                            responseLicense.LicenceKeyHis = pmlicenceKeyHis;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation = new PmlicenceKey();
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.MaxVersion = pmLicensekey.MaxVersion;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusEmail = pmLicensekey.CusEmail;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusName = pmLicensekey.CusName;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.CusPhone = pmLicensekey.CusPhone;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.DayOfUse = pmLicensekey.DayOfUse;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.LimitActived = pmLicensekey.LimitActived;
+                            responseLicense.LicenceKeyHis.PublicKeyNavigation.RootPath = pmLicensekey.RootPath;
                         }
                         else
                         {
-                            response.StatusCode = "0"; // Key này đã đăng kí full rồi. không cho đăng kí nữa.
-                            response.Message = cnt.ToString();
+                            status.StatusCode = "0"; // Key này đã đăng kí full rồi. không cho đăng kí nữa.
+                            status.Message = cnt.ToString();
+                            responseLicense.Status = status;
                         }
 
                     }
 
                 }
             }
-            catch
+            catch(Exception ex)
             {
-                response.StatusCode = "400";
+                status.StatusCode = "400";
+                responseLicense.Status = status;
             }
-            return Ok(response);
+            return Ok(responseLicense);
         }
 
     }

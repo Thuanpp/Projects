@@ -17,13 +17,14 @@ namespace FTPServer.Models
 
         public virtual DbSet<PmlicenceKey> PmlicenceKey { get; set; }
         public virtual DbSet<PmlicenceKeyHis> PmlicenceKeyHis { get; set; }
+        public virtual DbSet<PmsubProject> PmsubProject { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=;Database=PMLicenceDev;User Id=;Password=;");
+                optionsBuilder.UseSqlServer("Server=14.161.20.180;Database=PMLicenceDev;User Id=mocau;Password=MOCAU2016;");
             }
         }
 
@@ -52,6 +53,16 @@ namespace FTPServer.Models
                 entity.Property(e => e.CusPhone)
                     .IsRequired()
                     .HasMaxLength(50)
+                    .HasDefaultValueSql("('')");
+
+                entity.Property(e => e.MaxVersion)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .HasDefaultValueSql("('')");
+
+                entity.Property(e => e.RootPath)
+                    .IsRequired()
+                    .HasMaxLength(200)
                     .HasDefaultValueSql("('')");
             });
 
@@ -82,6 +93,12 @@ namespace FTPServer.Models
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("('')");
 
+                entity.Property(e => e.Pcname)
+                    .IsRequired()
+                    .HasColumnName("PCName")
+                    .HasMaxLength(50)
+                    .HasDefaultValueSql("('')");
+
                 entity.Property(e => e.PrivateKey)
                     .IsRequired()
                     .HasMaxLength(1000)
@@ -97,6 +114,22 @@ namespace FTPServer.Models
                     .HasForeignKey(d => d.PublicKey)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_PMLicenceKeyHis_PMLicenceKey");
+            });
+
+            modelBuilder.Entity<PmsubProject>(entity =>
+            {
+                entity.HasKey(e => new { e.ProjectId, e.ProjectManager });
+
+                entity.ToTable("PMSubProject");
+
+                entity.Property(e => e.ProjectId)
+                    .HasColumnName("ProjectID")
+                    .HasMaxLength(20)
+                    .HasDefaultValueSql("('')");
+
+                entity.Property(e => e.ProjectManager)
+                    .HasMaxLength(20)
+                    .HasDefaultValueSql("('')");
             });
         }
     }
