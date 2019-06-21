@@ -1,0 +1,10 @@
+E:\Project\PMSource V2\MocauManagement\Utility\bin\Debug\Utility.dll
+E:\Project\PMSource V2\MocauManagement\Utility\bin\Debug\Utility.pdb
+E:\Project\PMSource V2\MocauManagement\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\MocauManagement\Utility\obj\Debug\Utility.dll
+E:\Project\PMSource V2\MocauManagement\Utility\obj\Debug\Utility.pdb
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\Utility\bin\Debug\Utility.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\Utility\bin\Debug\Utility.pdb
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\Utility\obj\Debug\Utility.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\Utility\obj\Debug\Utility.pdb

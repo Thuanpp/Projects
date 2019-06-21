@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PMLicenceDevModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PMLicenceKey">
+    <Key>
+      <PropertyRef Name="PublicKey" />
+    </Key>
+    <Property Name="PublicKey" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LimitActived" Type="Int32" Nullable="false" />
+    <Property Name="CusName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CusPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CusEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DayOfUse" Type="Int32" Nullable="false" />
+    <Property Name="MaxVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RootPath" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PMLicenceKeyHis" Relationship="Self.FK_PMLicenceKeyHis_PMLicenceKey" FromRole="PMLicenceKey" ToRole="PMLicenceKeyHis" />
+  </EntityType>
+  <EntityType Name="PMLicenceKeyHi">
+    <Key>
+      <PropertyRef Name="HWKey" />
+      <PropertyRef Name="PublicKey" />
+    </Key>
+    <Property Name="HWKey" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PublicKey" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PrivateKey" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActivedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CurrentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ExpiredDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SoftwareVersion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PCName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PMLicenceKey" Relationship="Self.FK_PMLicenceKeyHis_PMLicenceKey" FromRole="PMLicenceKeyHis" ToRole="PMLicenceKey" />
+  </EntityType>
+  <Association Name="FK_PMLicenceKeyHis_PMLicenceKey">
+    <End Role="PMLicenceKey" Type="Self.PMLicenceKey" Multiplicity="1" />
+    <End Role="PMLicenceKeyHis" Type="Self.PMLicenceKeyHi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PMLicenceKey">
+        <PropertyRef Name="PublicKey" />
+      </Principal>
+      <Dependent Role="PMLicenceKeyHis">
+        <PropertyRef Name="PublicKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PMLicenceDevEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PMLicenceKeys" EntityType="Self.PMLicenceKey" />
+    <EntitySet Name="PMLicenceKeyHis" EntityType="Self.PMLicenceKeyHi" />
+    <AssociationSet Name="FK_PMLicenceKeyHis_PMLicenceKey" Association="Self.FK_PMLicenceKeyHis_PMLicenceKey">
+      <End Role="PMLicenceKey" EntitySet="PMLicenceKeys" />
+      <End Role="PMLicenceKeyHis" EntitySet="PMLicenceKeyHis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,20 @@
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.dll.config
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.dll
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.pdb
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.dll
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.xml
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.csprojResolveAssemblyReference.cache
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.dll
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.pdb
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\PMSource V2\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.dll.config
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\MocauManagementDAL.pdb
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.xml
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.csprojResolveAssemblyReference.cache
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.dll
+E:\QMS\QMS\5.Pj ( Develop)\MocauManagement\MocauManagementDAL\obj\Debug\MocauManagementDAL.pdb
